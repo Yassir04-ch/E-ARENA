@@ -137,7 +137,7 @@ nav {
   z-index: 1;
 }
 
-.hero h1 {
+.hero h1,h1{
   font-size: 4rem;
   margin-bottom: 1.5rem;
   background: linear-gradient(
@@ -512,33 +512,14 @@ footer {
   .news-grid {
     grid-template-columns: 1fr;
   }
+  /*inscription, login*/
 }
-form {
-  padding: 10px;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-}
-form input {
-  background-color: #1010abd3;
-  color: white;
-  width: 400px;
-  height: 30px;
-  padding: 10px;
-  flex-grow: 1;
-  border-radius: 20px;
-}
-form button {
-  background-color: #14a;
-  color: rgb(203, 163, 163);
-  width: 420px;
-  height: 30px;
-  border-radius: 20px;
-}
-fieldset {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ form input , button , select{
   width: 500px;
-}
+  height: 40px;
+  margin: 5px;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+ }
+ 
