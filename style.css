@@ -521,6 +521,11 @@ footer {
   flex-wrap:wrap;
 }
 }
+@media(max-width:550px){
+  form input , button , select{
+    width: 400px;
+  } 
+}
 h2{
   color: limegreen;
 }
@@ -530,7 +535,7 @@ h2{
   margin-top: 150px;
 
 }
- form input , button , select{
+ form input , button , select , textarea {
   width: 500px;
   height: 40px;
   margin: 5px;
@@ -561,10 +566,5 @@ h2{
   justify-content: center;
   align-items: center;  
  }
- @media(max-width:550px){
-  form input , button , select{
-    width: 400px;
-  }
-  
-}
+ 
  
