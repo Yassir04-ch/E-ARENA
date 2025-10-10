@@ -137,7 +137,7 @@ nav {
   z-index: 1;
 }
 
-.hero h1,h1{
+.hero h1{
   font-size: 4rem;
   margin-bottom: 1.5rem;
   background: linear-gradient(
@@ -512,7 +512,12 @@ footer {
   .news-grid {
     grid-template-columns: 1fr;
   }
-  /*inscription, login*/
+  /*inscription-login-contact*/
+}
+.inscription,.login,.contact{
+  text-align: center;
+  margin-top: 150px;
+
 }
  form input , button , select{
   width: 500px;
@@ -521,5 +526,21 @@ footer {
   border-radius: 20px;
   padding: 10px;
   border: none;
+ }
+ /*About*/
+ .About{
+  margin: 150px;
+  text-align: center;
+ }
+ img{
+  width: 300px;
+  height: 200px;
+ }
+ img:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgb(180, 6, 58);
+ }
+ .img1,.img2{
+  margin-top:80px;
  }
  
