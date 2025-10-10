@@ -40,6 +40,6 @@ E-Arena/
 ├── login.html            # Formulaire login
  -css/
 ├── style.css         #  style principale 
-    ========== link de page web E-ARENA ============
-      https://yassir04-ch.github.io/page-E-Arenaa/
+   # ========== link de page web E-ARENA ============ #
+       https://yassir04-ch.github.io/page-E-Arenaa/
 

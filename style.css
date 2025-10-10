@@ -512,8 +512,19 @@ footer {
   .news-grid {
     grid-template-columns: 1fr;
   }
-  /*inscription-login-contact*/
+  .para{
+   margin-top:40px;
+   margin-left:10px;
+  }
+.img1,.img2{
+  display:flex;
+  flex-wrap:wrap;
 }
+}
+h2{
+  color: limegreen;
+}
+ /*inscription-login-contact*/
 .inscription,.login,.contact{
   text-align: center;
   margin-top: 150px;
@@ -538,9 +549,22 @@ footer {
  }
  img:hover{
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgb(180, 6, 58);
+  box-shadow: 0 15px 30px rgb(9, 112, 177);
+ }
+ .para{
+  margin-left:50px;
  }
  .img1,.img2{
   margin-top:80px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;  
  }
+ @media(max-width:550px){
+  form input , button , select{
+    width: 400px;
+  }
+  
+}
  
